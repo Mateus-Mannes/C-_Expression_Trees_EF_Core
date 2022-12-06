@@ -21,7 +21,7 @@ Func<int, bool> MenorQueCinco = n => n < 5;
 Construindo Expression:
 
 ```C#
-Func<int, bool> using System.Linq.Expressions;
+using System.Linq.Expressions;
 
 var parametro = Expression.Parameter(typeof(int));
 
